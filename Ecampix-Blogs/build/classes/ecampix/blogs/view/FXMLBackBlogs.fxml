@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="blogAnchorPane" prefHeight="574.0" prefWidth="956.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecampix.blogs.view.FXMLBackBlogsController">
+    <stylesheets>
+        <URL value="@fxmlbackblogs.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tabBlogs" layoutX="332.0" layoutY="41.0" prefHeight="468.0" prefWidth="599.0">
+        <columns>
+            <TableColumn fx:id="idBlogClmn" prefWidth="23.0" text="Id" />
+          <TableColumn fx:id="dateClmn" prefWidth="127.0" text="Date" />
+            <TableColumn fx:id="nomUtClmn" prefWidth="126.0" text="Nom d'utilisateur" />
+          <TableColumn fx:id="titreClmn" prefWidth="75.0" text="Titre" />
+            <TableColumn fx:id="descrClmn" prefWidth="123.0" text="Description" />
+            <TableColumn fx:id="imgClmn" prefWidth="123.0" text="Lien Image" />
+        </columns>
+      </TableView>
+      <Button fx:id="ajbtn" layoutX="40.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="238.0" text="Ajouter" />
+      <Button fx:id="modbtn" layoutX="40.0" layoutY="381.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="238.0" text="Modifier" />
+      <Button fx:id="suppbtn" layoutX="40.0" layoutY="447.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="238.0" text="Supprimer" />
+      <AnchorPane layoutX="24.0" layoutY="14.0" prefHeight="282.0" prefWidth="272.0">
+         <children>
+            <TextField fx:id="nomUtf" layoutX="14.0" layoutY="53.0" prefHeight="25.0" prefWidth="246.0" />
+            <TextField fx:id="titref" layoutX="14.0" layoutY="116.0" prefHeight="25.0" prefWidth="246.0" />
+            <TextField fx:id="descf" layoutX="13.0" layoutY="175.0" prefHeight="25.0" prefWidth="246.0" />
+            <TextField fx:id="imgf" layoutX="13.0" layoutY="243.0" prefHeight="25.0" prefWidth="246.0" />
+            <Label layoutX="14.0" layoutY="30.0" prefHeight="17.0" prefWidth="108.0" text="Nom d'utilisateur" />
+            <Label layoutX="14.0" layoutY="90.0" text="Titre" />
+            <Label layoutX="14.0" layoutY="216.0" text="Lien Image" />
+            <Label layoutX="14.0" layoutY="151.0" text="Description" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="idB" layoutX="14.0" layoutY="535.0" />
+      <Button fx:id="goCmnt" layoutX="737.0" layoutY="531.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="33.0" prefWidth="205.0" text="Commentaires" />
+   </children>
+</AnchorPane>
