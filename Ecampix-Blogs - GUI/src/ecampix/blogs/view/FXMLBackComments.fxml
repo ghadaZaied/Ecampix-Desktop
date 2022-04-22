@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="CommentAnchorPane" prefHeight="574.0" prefWidth="956.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecampix.blogs.view.FXMLBackCommentsController">
+    <stylesheets>
+        <URL value="@fxmlbackcomments.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="589.0" fitWidth="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/side-bg-comment.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="22.0" layoutY="39.0" prefHeight="387.0" prefWidth="281.0">
+         <children>
+            <TextField fx:id="nomUtf" layoutX="18.0" layoutY="135.0" prefHeight="25.0" prefWidth="246.0" styleClass="text-field2" />
+            <TextArea fx:id="comntf" layoutX="14.0" layoutY="202.0" prefHeight="101.0" prefWidth="246.0" />
+            <ChoiceBox fx:id="titreBlogList" layoutX="9.0" layoutY="334.0" prefHeight="25.0" prefWidth="256.0" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="66.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="170.0" layoutX="9.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/textC1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="150.0" layoutX="-9.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/textC2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="151.0" layoutX="-30.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/textC3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="tabComment" layoutX="372.0" layoutY="174.0" prefHeight="345.0" prefWidth="581.0" styleClass="tabComment">
+         <columns>
+            <TableColumn fx:id="idCmntC" prefWidth="23.0" text="Id" />
+            <TableColumn fx:id="idBlogC" prefWidth="53.0" text="Blog ID" />
+            <TableColumn fx:id="DateCmntC" prefWidth="100.0" text="Date" />
+            <TableColumn fx:id="utilisateurC" prefWidth="133.0" text="Nom d'utilisateur" />
+            <TableColumn fx:id="ComntC" prefWidth="288.0" text="Commentaire" />
+         </columns>
+      </TableView>
+      <Button fx:id="ajbtn" layoutX="9.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="306.0" styleClass="buttonOther2" text="Ajouter" />
+      <Button fx:id="modbtn" layoutX="9.0" layoutY="465.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="306.0" styleClass="buttonOther2" text="Modifier" />
+      <Button fx:id="suppbtn" layoutX="10.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="41.0" prefWidth="306.0" styleClass="buttonOther2" text="Supprimer" />
+      <TextField fx:id="idC" layoutX="329.0" layoutY="550.0" />
+      <Button fx:id="goBlogs" layoutX="737.0" layoutY="529.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="33.0" prefWidth="205.0" styleClass="buttonSide" text="Blogs" />
+      <TextField fx:id="idBlogS" layoutX="487.0" layoutY="550.0" />
+      <ImageView fitHeight="150.0" fitWidth="636.0" layoutX="362.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Header-GestionComments.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

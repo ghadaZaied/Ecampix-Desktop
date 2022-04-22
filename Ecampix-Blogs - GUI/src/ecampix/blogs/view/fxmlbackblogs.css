@@ -1,0 +1,107 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*/
+
+.tabBlogs {
+    -fx-background-color: transparent;
+}
+
+.tabBlogs .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.tabBlogs .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #d8963d, #fad091);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.tabBlogs .column-header-background .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.tabBlogs .corner {
+    -fx-background-color: transparent;
+}
+
+.tabBlogs .column-header {
+    -fx-background-color: transparent;
+}
+
+.tabBlogs .table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: #7b5824;
+}
+
+.table-row-cell:selected{
+    -fx-border-color: transparent;
+    -fx-background-color: #fcf0db;
+    -fx-text-background-color: #7b5824;
+}
+
+.tabBlogs .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+.text-field{
+  -fx-border-color: #40855b;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-text-box-border: #3e484f;
+}
+
+.buttonSide2{
+   -fx-background-radius: 40px;
+   -fx-font-size: 13px;
+   -fx-background-color: linear-gradient(to bottom, #00a2ff, #1d85c0);
+   -fx-text-fill: white;
+}
+
+.buttonOther{
+   -fx-background-radius: 40px;
+   -fx-font-size: 15px;
+   -fx-font-weight: bold;
+   -fx-background-color: #40855b;
+   -fx-text-fill: white;
+}
+
+.buttonOther:hover{
+   -fx-background-radius: 40px;
+   -fx-font-size: 15px;
+   -fx-font-weight: bold;
+   -fx-background-color: #1a3d2f;
+   -fx-text-fill: white;
+}
+
+.labelText{
+    -fx-font-size:15px; 
+   -fx-text-fill: white; 
+}
+/*
+.tabBlogs .corner{
+    -fx-background-color: transparent;
+}
+.tabBlogs .column-header-background .label{
+    -fx-background-color:  #67941e;
+    -fx-font-size:12px;
+    -fx-text-fill: white;
+}
+
+.labelText{
+    -fx-font-size:12px;
+    -fx-text-fill: black;
+}
+
+.text-field{
+  -fx-border-radius: 10 10 0 0;
+  -fx-background-radius: 10 10 0 0;
+  -fx-text-box-border: #67941e;
+}
+*/

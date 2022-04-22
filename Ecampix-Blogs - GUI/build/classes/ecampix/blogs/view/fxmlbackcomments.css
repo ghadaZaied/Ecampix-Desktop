@@ -1,0 +1,99 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.tabComment {
+    -fx-background-color: transparent;
+}
+
+.tabComment .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.tabComment .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #00a2ff, #1d85c0);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.tabComment .column-header-background .label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.tabComment .corner {
+    -fx-background-color: transparent;
+}
+
+.tabComment .column-header {
+    -fx-background-color: transparent;
+}
+
+.tabComment .table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: #193647;
+}
+
+.tabComment .table-row-cell:selected{
+    -fx-border-color: transparent;
+    -fx-background-color: #a1d2dd;
+    -fx-text-background-color: #193647;
+}
+
+.tabComment .tabBlogs .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+.buttonSide{
+   -fx-background-radius: 40px;
+   -fx-font-size: 13px;
+   -fx-background-color: linear-gradient(to bottom, #d8963d, #fad091);
+   -fx-text-fill: white;
+}
+
+.buttonOther2{
+   -fx-background-radius: 40px;
+   -fx-font-size: 15px;
+   -fx-font-weight: bold;
+   -fx-background-color: #5575ff;
+   -fx-text-fill: white;
+}
+
+.buttonOther2:hover{
+   -fx-background-radius: 40px;
+   -fx-font-size: 15px;
+   -fx-font-weight: bold;
+   -fx-background-color: #444a75;
+   -fx-text-fill: white;
+}
+
+.text-field2{
+  -fx-border-color: #5575ff;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-text-box-border: #3e484f;
+}
+.text-area{
+  -fx-border-color: #5575ff;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-text-box-border: #3e484f;    
+}
+
+.choice-box{
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px; 
+  -fx-text-fill: white;
+  -fx-background-color: white;
+}
+
+.choice-box .arrow{
+  -fx-background-color: #5575ff;
+}
+
+.choice-box .label {
+     -fx-text-fill: #2c3041; 
+}
+
