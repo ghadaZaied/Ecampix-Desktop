@@ -1,0 +1,47 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.frontPane{
+    -fx-background-color: #1f2326;
+}
+
+.frontButton{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+
+.frontButton .label{
+-fx-font-family: "Open Sans", "Open Sans", "Open Sans", "Open Sans";
+}
+
+.frontButton:hover{
+    -fx-background-color: #0d1012;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+}
+
+.frontIcons{
+    -fx-background-color: transparent;
+}
+
+.frontIcons:hover{
+    -fx-background-color: #0d1012;
+}
+
+.frontOtherButton{
+    -fx-background-color: #fad091;
+    -fx-font-size: 15px;
+    -fx-text-fill: #6d8777;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15px;
+}
+
+
+.frontOtherButton:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #302219;
+    -fx-text-fill: white;
+}

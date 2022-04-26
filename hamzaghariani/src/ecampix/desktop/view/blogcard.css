@@ -1,0 +1,12 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.cardIcon{
+    -fx-background-color: transparent;
+}
+
+.cardIcon:hover{
+    -fx-background-color: #1f2326;
+    -fx-cursor: hand;
+}

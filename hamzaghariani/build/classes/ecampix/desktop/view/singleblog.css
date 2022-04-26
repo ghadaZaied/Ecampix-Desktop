@@ -1,0 +1,18 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.frontOtherButtonSingle{
+    -fx-background-color: #fad091;
+    -fx-font-size: 15px;
+    -fx-text-fill: #6d8777;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15px;
+}
+
+
+.frontOtherButtonSingle:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #302219;
+    -fx-text-fill: white;
+}

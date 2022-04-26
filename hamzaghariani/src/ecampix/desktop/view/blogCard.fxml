@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="156.0" prefWidth="421.0" stylesheets="@blogcard.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecampix.desktop.controller.BlogCardController">
+   <children>
+      <ImageView fx:id="imgBlog" fitHeight="93.0" fitWidth="164.0" layoutX="7.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Images/blogImage.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="cardBlogTitle" layoutX="183.0" layoutY="14.0" prefHeight="35.0" prefWidth="120.0" text="Label" textFill="#357529">
+         <font>
+            <Font name="Candara" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="cardBlogDesc" layoutX="183.0" layoutY="40.0" prefHeight="67.0" prefWidth="164.0" text="Label qsdsqd sqd sqd sqd" wrapText="true">
+         <font>
+            <Font name="Candara Light" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="353.0" layoutY="107.0" mnemonicParsing="false" onAction="#getSingleBlog" prefHeight="42.0" prefWidth="48.0" styleClass="cardIcon" stylesheets="@blogcard.css">
+         <graphic>
+            <FontAwesomeIconView fill="#dab875" glyphName="ARROW_RIGHT" size="28" />
+         </graphic></Button>
+      <Button layoutX="346.0" layoutY="11.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="61.0" styleClass="cardIcon">
+         <graphic>
+            <FontAwesomeIconView fill="#dab875" glyphName="QRCODE" size="30" />
+         </graphic>
+      </Button>
+   </children>
+</Pane>

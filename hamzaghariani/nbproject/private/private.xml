@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/hamzaghariani/src/com/hamzaghariani/tests/Main.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/hamzaghariani/src/com/hamzaghariani/services/ServiceBlog.java</file>
-            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/hamzaghariani/src/com/hamzaghariani/services/ServiceSortie.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/Ecampix-Desktop/src/ecampix/desktop/view/frontecampix.css</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/Ecampix-Desktop/src/ecampix/desktop/view/blogcard.css</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/Ecampix-Desktop/src/ecampix/desktop/controller/SingleBlogController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/Ecampix-Desktop/src/ecampix/desktop/controller/FrontEcampixController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/Ecampix-Desktop/src/ecampix/desktop/controller/BlogCardController.java</file>
+            <file>file:/C:/Users/MSI/Documents/NetBeansProjects/Ecampix-Desktop/src/ecampix/desktop/controller/BlogController.java</file>
         </group>
     </open-files>
 </project-private>

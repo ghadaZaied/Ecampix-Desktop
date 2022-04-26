@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="82.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ecampix.desktop.controller.CommentsBlogController">
+   <children>
+      <ImageView fitHeight="65.0" fitWidth="95.0" layoutX="7.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/Images/CamperImage.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="nomUtComment" layoutX="79.0" layoutY="9.0" prefHeight="26.0" prefWidth="243.0" text="Hamza Ghariani" textFill="#065733">
+         <font>
+            <Font name="Candara Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="cmntComment" layoutX="79.0" layoutY="33.0" prefHeight="39.0" prefWidth="243.0" text="Merci pour votre Comprehension.">
+         <font>
+            <Font name="Candara Light" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateComment" layoutX="241.0" layoutY="9.0" prefHeight="26.0" prefWidth="88.0" text="20-4-2022" textFill="#001708" />
+   </children>
+</Pane>
